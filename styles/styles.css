@@ -50,14 +50,14 @@ body {
 
 .site-footer .row-footer .list-unstyled a ,
 .site-footer .row-footer .contact-footer a ,
-.site-footer .row-footer h5,
+.site-footer .row-footer h4,
 .site-footer .row-footer .fa,
 .site-footer .row-footer .contact-footer a i {
     color: white;
     letter-spacing: 1px;
 }
 
-.site-footer .row-footer h5 {
+.site-footer .row-footer h4 {
     text-decoration: underline;
     font-size: 30px;
 }
