@@ -1,0 +1,134 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+/* Nav Bar */
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+.navbar-nav li {
+    padding-right: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: 1px;
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #E5E5E5;
+    font-size: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #03B3EE;
+}
+
+.navbar .navbar-collapse li.nav-item {
+    padding: 1px;
+    margin: 3px;
+}
+
+.navbar .navbar-collapse .btn-primary:hover {
+    background-color: transparent;
+    border-color: #0069d9;
+    color: #036EEE;
+}
+
+/* Footer */
+
+.site-footer .row-footer .list-unstyled a ,
+.site-footer .row-footer .contact-footer a ,
+.site-footer .row-footer h5,
+.site-footer .row-footer .fa,
+.site-footer .row-footer .contact-footer a i {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.site-footer .row-footer h5 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.site-footer .row-footer .list-unstyled a:hover ,
+.site-footer .row-footer .contact-footer a:hover {
+    color: #036EEE;
+}
+
+/* index page */
+
+.homepage {
+    background-image: url(/img/homepage.jpg);
+    background-size: cover;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+}
+
+.homepage .row-content h2,
+.homepage .row-content h3 {
+    color: white;
+    letter-spacing: 1px;
+    padding: 3px;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+
+.jumbotron {
+    margin: 0;
+}
+
+.jumbotron-custom {
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.jumbotron-custom div.col-6 .btn {
+    margin: auto;
+    vertical-align: auto;
+}
+
+.modal-header {
+    background: #036EEE;
+    color: white;
+}
+
+.modal-body {
+    color: black
+}
+
+/* About us Accordion */
+.card .card-header .btn-primary {
+    background-color: #036EEE;
+    padding: 3px;
+}
+
+.card .card-header {
+    background-color: #036EEE;
+    padding: 0;
+    margin: 0;
+}
+
+.card .card-header h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.accordion .collapse img {
+    height: 400px;
+    object-fit: contain;
+    width: 100%;
+}
+
